@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internationale Academie/Contact</title>
+    <link rel="stylesheet" href="../css/main.css">
+
+
+<body> 
+    
+    <header>
+        <img class="logo" src="../images/logoacademie-white.png" alt="logo van de academie">
+        <div class="navlinks1">
+            <nav>
+                <a href="../index.html">Home |</a>
+                <a href="over-ons.html">Over ons |</a>
+                <a href="gallerij.html">Gallerij |</a>
+                <a class="current-page" href="contact.html">Contact |</a>
+            </nav>
+        </div>    
+    </header>
+    <br>
+    <h1 class="contactheader">Contactformulier</h1>
+    <br><br>
+    <form action="https://formspree.io/f/xpzeozjy" method="post">      
+        <table id="contactform">
+            <tr>
+                <td><label for="geslacht">Geslacht</label></td>
+                <td>
+                    <select name="geslacht" id="geslacht" class="contactformstyle">
+                        <option value="vrouw">Mvr.</option>
+                        <option value="man">Mhr.</option>
+                        <option value="anders">Anders</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label class="formcol1" for="naam" class="formcol1" >Naam</label></td>
+                <td><input type="text" name="Naam" placeholder="Typ uw volledige naam in" maxlength="50" id="naam" class="contactformstyle formcol2" ></td>
+            </tr>
+            <tr>
+                <td> <label for="landcode">Telefonisch landnummer</label> </td>
+                <td><input class="contactformstyle" type="number" max="999" id="prefix" placeholder="+" name="prefix" min="1">
+            </tr>
+            <tr>
+                <td><label for="telefoonnummer"></label></td>
+                <td><input class="contactformstyle formcol2" type="tel" type="number" name="telefoonnummer" max="999999999"></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">E-mailadres</label></td>
+                <td><input  class="contactformstyle formcol2" type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="bericht">Bericht</label><br></td>
+                <td><textarea  class="contactformstyle formcol2" name="bericht" id="bericht" maxlength="500" cols="30" rows="10" placeholder="Typ uw bericht hier"></textarea></td>
+            </tr>
+            <tr>
+                <td><button type="submit" name="Verzendknop" id="verzendknop">Verzend</button></td>
+            </tr>
+        </table>
+    </form>
+     <br>  
+     <footer>
+        <br>
+        <p class="footertext"> 
+            E-mailadres: eigen_e-mail@email.com | &nbsp;&nbsp;&nbsp; Telefoonnummer: +31 000000000 | &nbsp;&nbsp;&nbsp; Social- Media links: <a href="https://www.instagram.com/natgeouk/#" target="_blank"><img class="socialmedialogo1"  src="../images/instagramlogo.png" alt="instragram-logo & link"></a> <a href="https://www.facebook.com/natgeo" target="_blank"><img class="socialmedialogo2" src="../images/facebooklogo.png" alt="facebooklogo & link"></a>
+        </p>
+    </footer>
+</body>
+</html>
